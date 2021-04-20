@@ -96,10 +96,6 @@ div.menu a:hover:not(.active) {
   margin: auto;
 }
 
-.b {
-  border: 2px #284e7b solid;
-}
-
 main div.containeur {
   height: 470px;
   display: flex;
@@ -168,7 +164,7 @@ main div.containeur {
 .intro {
   display: flex;
   align-items: center;
-  height: 20vh;
+  height: 16vh;
   justify-content: center;
   width: 100%;
   z-index: 1;
