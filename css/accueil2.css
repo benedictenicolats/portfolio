@@ -20,10 +20,6 @@
     url("./front/HARRIETTEXTITALIC.woff") format("woff");
 }
 
-body {
-  font-family: "Harriet Text Regular", sans-serif;
-}
-
 /*BARRE DE NAVIGATION*/
 
 nav {
