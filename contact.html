@@ -1,89 +1,123 @@
 <!DOCTYPE html>
-    <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portfolio Benedicte Nicolats</title>
-        <link rel="stylesheet" href="./css/contact.css" />
-    </head>
-    <body>
-        <header>
-            <!--  BARRE DE NAVIGATION  -->
-            
-                <nav>
-                    <h1>Bénédicte Nicolats</h1>
-                 <div class="barre">
-                    <div class="menu"><a href="index2.html">Accueil</a></div>
-                    <div class="menu"><a href="#experiences">Qui suis-je?</a></div>
-                    <div class="menu"><a href="#competences">Compétences</a></div> 
-                    <div class="menu"><a href="#projets">Projets CESI</a></div>                       
-                    <div class="menu"><a href="contact.html">Contact</a></div>
-                </div> 
-                </nav>
-        </header>
-            
-        <!--  CORPS  -->
-        <main>
-            <div class="container"></div>
-            <div class="legende">
-                <p><b>Pour me contacter:</b> </p>
-            </div>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Benedicte Nicolats</title>
+    <link rel="stylesheet" href="./css/contact.css" />
+  </head>
+  <body>
+    <header>
+      <!--  BARRE DE NAVIGATION  -->
 
-            <div class="corps">
-                 <div class="gauche">
-    
-                        <form method="post" action="./resultatformulaire.php">
-                      <div class="segment">
-                        <h2>Informations de contact :</h2>
-                      </div>
-                      <label>
-                              <input id="Nom" type="text"  name="user_Nom" placeholder="Votre Nom"  required/>
-                            </label>
-                      <label>
-                        <input  id="Prenom" type="text"name="user_Prenom" placeholder="Votre Prénom"   required/> 
-                      </label>
-                      <label>
-                        <input id="email" type="email"  name="user_email"placeholder="Votre Email"   required/> 
-                      </label>
-                    <label>
-                      <input id="phone" type="text"  name="user_phone"placeholder="Votre Téléphone"   required/> 
-                    </label>
-                    <div>
-                      <input id="msg" type="textarea" name="user_message" placeholder="Votre Message" / > 
-                    </div>
-                    
-                    <label ><div class="button">
-                      <button type="submit">Enregistrer</button> </div>
-                    </label>    
-                      
-                     <div class="segment">
-                        <button class="unit" type="button"><i class="icon ion-md-arrow-back"></i></button>
-                      </div>
-                      
-                    </form>
-            <div class="droit">
-                <p> Bénédicte Nicolats<br>
-                    <b>Gestionnaire en maintenance et support informatique</b><br>
-                    <br>
-                    <b>Téléphone:</b><br>
-                    06 86 57 63 09<br>
-                    <br>
-                    <b>Email : </b><br>
-                    nicolatsbenedicte@gmail.com<br>
-                </p>
-            </div>
-            </div>
+      <nav>
+        <h1>Bénédicte Nicolats</h1>
+        <div class="barre">
+          <div class="menu"><a href="index2.html">Accueil</a></div>
+          <div class="menu"><a href="#experiences">Qui suis-je?</a></div>
+          <div class="menu"><a href="#competences">Compétences</a></div>
+          <div class="menu"><a href="#projets">Projets CESI</a></div>
+          <div class="menu"><a href="contact.html">Contact</a></div>
         </div>
-        </main>   
-            <!--  PIED DE PAGE  -->
-        <footer>
-            <div class="renvoie">
-                <div class="renvoie1"><a href='cv.html'>CV</a></div>
-                <div class="renvoie2"><a href='https://www.linkedin.com/in/b%C3%A9n%C3%A9dicte-nicolats-47bba376/'><img src="./images/linkedin.png" style="width: 24px;height: 24px;"> </a></div>
-                <div class="renvoie3">Copyright <a href="contact.html">Benedicte Nicolats</a> &copy 2021</div>
-            </div>
-        </footer>
+      </nav>
+    </header>
 
-    </body>
-    
+    <!--  CORPS  -->
+    <main>
+      <div class="legende">
+        <p><b>Pour me contacter:</b></p>
+      </div>
+
+      <div class="corps">
+        <div class="gauche">
+          <div class="segment">
+            <h2>Informations de contact :</h2>
+          </div>
+
+          <form method="post" action="./resultatformulaire.php">
+            <div class="ligne1">
+              <label>
+                <input
+                  id="Nom"
+                  type="text"
+                  name="user_Nom"
+                  placeholder="Votre Nom"
+                  required
+                />
+              </label>
+              <label>
+                <input
+                  id="Prenom"
+                  type="text"
+                  name="user_Prenom"
+                  placeholder="Votre Prénom"
+                  required
+                />
+              </label>
+            </div>
+
+            <div class="ligne2">
+              <label>
+                <input
+                  id="email"
+                  type="email"
+                  name="user_email"
+                  placeholder="Votre Email"
+                  required
+                />
+              </label>
+              <label>
+                <input
+                  id="phone"
+                  type="text"
+                  name="user_phone"
+                  placeholder="Votre Téléphone"
+                  required
+                />
+              </label>
+            </div>
+            <textarea
+              class="ligne3"
+              id="texte"
+              name="texte"
+              placeholder="Votre message"
+            ></textarea>
+
+            <label class="ligne4">
+              <div class="button">
+                <button type="submit">Enregistrer</button>
+              </div>
+            </label>
+          </form>
+        </div>
+
+        <div class="droit">
+          Bénédicte Nicolats<br />
+          <b>Gestionnaire en maintenance et support informatique</b><br />
+          <br />
+          <div><b>Téléphone :</b> 06 86 57 63 09</div>
+          <div><b>Email :</b> nicolatsbenedicte@gmail.com</div>
+        </div>
+      </div>
+    </main>
+    <!--  PIED DE PAGE  -->
+    <footer>
+      <div class="renvoie">
+        <div class="renvoie1"><a href="cv.html">CV</a></div>
+        <div class="renvoie2">
+          <a
+            href="https://www.linkedin.com/in/b%C3%A9n%C3%A9dicte-nicolats-47bba376/"
+            ><img
+              src="./images/linkedin.png"
+              style="width: 24px; height: 24px"
+            />
+          </a>
+        </div>
+        <div class="renvoie3">
+          Copyright <a href="contact.html">Benedicte Nicolats</a> &copy 2021
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
