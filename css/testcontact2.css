@@ -1,0 +1,95 @@
+*{font-size: 20px;
+}
+
+
+div, p {
+  color: #284E7B;
+  text-shadow: 1px 1px 1px  color #ADD4F3;
+}
+
+
+form {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.segment {
+  padding:  0;
+  text-align: center;
+
+}
+
+button, input {
+  border: 0;
+  outline: 0;
+  border-radius:20;
+  background-color:#EFF3F5;
+  text-shadow: 1px 1px 0 #284E7B;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 5px;
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 10.5;
+  width: 100%;
+
+}
+
+input {
+  margin-right: 10;
+  box-shadow:  inset 2px 2px 5px #ADD4F3, inset -5px -5px 10px;
+  color: #EFF3F5;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  appearance: none;
+  -webkit-appearance: none;
+  color: #284E7B;
+}
+.focus {
+    box-shadow:  inset 1px 1px 2px #ADD4F3, inset -1px -1px 2px 
+    #EFF3F5;
+  }
+
+
+button {
+  color:#61677C;
+  font-weight: bold;
+  box-shadow: -5px -5px 20px #EFF3F5,  5px 5px 20px #ADD4F3;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-weight: 600;
+}
+  :hover {
+    box-shadow: -2px -2px 5px #EFF3F5, 2px 2px 5px #ADD4F3;
+  }
+  
+  :active {
+    box-shadow: inset 1px 1px 2px #ADD4F3, inset -1px -1px 2px color#EFF3F5;
+  }
+
+div input {
+   height: 100px;
+   text-align: left;
+ }
+
+  .button {
+    text-align: center;
+    border-radius: 6px;
+    border-color: #284E7B;
+    color: #284E7B;
+    display:block;
+    width:150px;
+    line-height:50px;
+     background-color: #eff3f5;
+margin-left: 150px;
+      }
+      button:hover {
+      background-color: #add4f3;
+      }
+  
+  
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/testcontact2.css" />
+  <title>Document</title>
+</head>
+<body>
+  <form>
+    <form method="post" action="./resultatformulaire.php">
+  <div class="segment">
+    <h2>Informations de contact :</h2>
+  </div>
+  <label>
+          <input id="Nom" type="text"  name="user_Nom" placeholder="Votre Nom"  required/>
+        </label>
+  <label>
+    <input  id="Prenom" type="text"name="user_Prenom" placeholder="Votre Prénom"   required/> 
+  </label>
+  <label>
+    <input id="email" type="email"  name="user_email"placeholder="Votre Email"   required/> 
+  </label>
+<label>
+  <input id="phone" type="text"  name="user_phone"placeholder="Votre Téléphone"   required/> 
+</label>
+<div>
+  <input id="msg" type="textarea" name="user_message" placeholder="Votre Message" / > 
+</div>
+
+<label ><div class="button">
+  <button type="submit">Enregistrer</button> </div>
+</label>    
+  
+ <div class="segment">
+    <button class="unit" type="button"><i class="icon ion-md-arrow-back"></i></button>
+    <!---- <button class="unit" type="button"><i class="icon ion-md-bookmark"></i></button>
+    <button class="unit" type="button"><i class="icon ion-md-settings"></i></button>-->
+  </div>
+  
+</form>
+</body>
+</html>
