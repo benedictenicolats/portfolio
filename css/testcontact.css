@@ -1,23 +1,12 @@
-*{font-size: 16px;
-color: #AE1100;/*red*/
-color: #EBECF0;/*bg*/
-color: #BABECC;/*shadow*/
-color: #FFF;/*white*/
-}
-body {
-  background-color:#EBECF0;
+* {
+  font-size: 20px;
 }
 
-body, p, input, select, textarea, button {
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: -0.2px;
+div,
+p {
+  color: #284e7b;
+  text-shadow: 1px 1px 1px color #add4f3;
 }
-
-div, p {
-  color: #BABECC;
-  text-shadow: 1px 1px 1px  color #FFF;
-}
-
 
 form {
   margin: 0 auto;
@@ -25,16 +14,20 @@ form {
 }
 
 .segment {
-  padding:  0;
+  padding: 0;
   text-align: center;
 }
 
-button, input {
+button,
+input {
   border: 0;
   outline: 0;
-  border-radius:20;
-  background-color:#EBECF0;
-  text-shadow: 1px 1px 0 #FFF;
+  border-radius: 20;
+  background-color: #eff3f5;
+  text-shadow: 1px 1px 0 #284e7b;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 5px;
 }
 
 label {
@@ -45,69 +38,51 @@ label {
 
 input {
   margin-right: 10;
-  box-shadow:  inset 2px 2px 5px #BABECC, inset -5px -5px 10px;
-  color: #FFF;
+  box-shadow: inset 2px 2px 5px #add4f3, inset -5px -5px 10px;
+  color: #eff3f5;
   width: 100%;
   box-sizing: border-box;
   transition: all 0.2s ease-in-out;
   appearance: none;
   -webkit-appearance: none;
+  color: #284e7b;
 }
 .focus {
-    box-shadow:  inset 1px 1px 2px #BABECC, inset -1px -1px 2px 
-     #FFF;
-  }
-
+  box-shadow: inset 1px 1px 2px #add4f3, inset -1px -1px 2px #eff3f5;
+}
 
 button {
-  color:#61677C;
+  color: #61677c;
   font-weight: bold;
-  box-shadow: -5px -5px 20px #fff,  5px 5px 20px #BABECC;
+  box-shadow: -5px -5px 20px #eff3f5, 5px 5px 20px #add4f3;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
   font-weight: 600;
 }
-  :hover {
-    box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #BABECC;
-  }
-  
-  :active {
-    box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px color#FFF;
-  }
-  
-  .icon {
-    margin-right: 10;
-  }
-  
-  .unit {
-    border-radius: 10;
-    line-height: 0;
-    width: 60;
-    height: 60;
-    display:inline-flex;
-    justify-content: center;
-    align-items:center;
-    margin: 0 10;
-    font-size: 10.2;
-  }
-    .icon {
-      margin-right: 0; 
-    }
-  
-  
-  .red {
-    display: block;
-    width: 100%;
-    color:#AE1100;
-  }
-
-
-.input-group {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+:hover {
+  box-shadow: -2px -2px 5px #eff3f5, 2px 2px 5px #add4f3;
 }
-  label {
-    margin: 0;
-    flex: 1;
-  }
+
+:active {
+  box-shadow: inset 1px 1px 2px #add4f3, inset -1px -1px 2px color#EFF3F5;
+}
+
+div input {
+  height: 100px;
+  text-align: left;
+}
+
+.button {
+  text-align: center;
+  border-radius: 6px;
+  border-color: #284e7b;
+  color: #284e7b;
+  display: block;
+  width: 150px;
+  line-height: 50px;
+  background-color: #eff3f5;
+  margin-left: 150px;
+}
+button:hover {
+  background-color: #add4f3;
+}

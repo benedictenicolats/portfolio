@@ -6,7 +6,7 @@
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 25px;
   padding: 18px 0;
   color: #0577be;
 }
@@ -79,7 +79,7 @@ div.menu a:hover:not(.active) {
   background-color: #eff3f5;
   color: #283e7c;
   text-align: center;
-  font-size: 25px;
+  font-size: 38px;
   border-bottom: solid 4px #8f908d;
 }
 
@@ -90,6 +90,7 @@ div.menu a:hover:not(.active) {
   justify-content: center;
   background-color: #eff3f5;
   color: #283e7c;
+  font-size: 25px;
 }
 
 .gauche,
@@ -117,18 +118,24 @@ div.menu a:hover:not(.active) {
 
 .droit,
 .droit div {
-  width: 400px;
+  width: 420px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   color: #283e7c;
-  font-size: 24px;
+
 }
 
 div {
   color: #284e7b;
   text-shadow: 1px 1px 1px color #add4f3;
+  font-size: 26px;
+  line-height: 50px;
+}
+
+b{
+  font-size: 26px;
 }
 
 .segment {
@@ -184,8 +191,9 @@ button {
   padding: 5px;
 
   /* A MODIFIER POUR POLICE */
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
+  font-size: 20px;
 }
 
 button {
@@ -259,4 +267,5 @@ div.renvoie2 {
 div.renvoie3 {
   color: #284e7b;
   text-align: center;
+  font-size: 20px;
 }
