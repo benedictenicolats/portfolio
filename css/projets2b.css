@@ -80,35 +80,42 @@ div.menu a:hover:not(.active) {
 
 .row {
   column-count : 3;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* Portfolio Content */
 
-#portfolio-wrapper { margin-bottom: 40px; }
-.popup-modal {	max-width: 85%; }
-
-#portfolio-wrapper { margin-bottom: 36px; }
 .w3-third .item-wrap {
-   overflow: hidden;
    position: relative;
-
-}
-
-.w3-third .item-wrap a {
-   display: block;
+   display: flex;
+   justify-content: center;
+   align-items: center;
    cursor: pointer;
+
+   -webkit-transition: all 0.3s ease-in-out;
+   -moz-transition: all 0.3s ease-in-out;
+   -o-transition: all 0.3s ease-in-out;
+   -ms-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
 }
+
 
  .w3-third .item-wrap .overlay {
   position: absolute;
   left: 0;
   top: 0;
-  width: 100%;
-  height: 100%;
+  width: 70%;
+  height: 70%;
 
  opacity: 0;
  -moz-opacity: 0;
  filter:alpha(opacity=0);
+ 
+ -webkit-transition: opacity 0.3s ease-in-out;
+ -moz-transition: opacity 0.3s ease-in-out;
+ -o-transition: opacity 0.3s ease-in-out;
+ transition: opacity 0.3s ease-in-out;
 
   background-color : url(./images/overlay-bg.png) repeat;
 }
@@ -126,12 +133,14 @@ div.menu a:hover:not(.active) {
  -moz-opacity: 0;
  filter:alpha(opacity=0);
 
+ -webkit-transition: opacity 0.3s ease-in-out;
+ -moz-transition: opacity 0.3s ease-in-out;
+ -o-transition: opacity 0.3s ease-in-out;
+ transition: opacity 0.3s ease-in-out;
 
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-left: -15px;
-  margin-top: -15px;
 }
 
 .w3-third .item-wrap img {
@@ -222,7 +231,13 @@ div.menu a:hover:not(.active) {
   transition: all 200ms ease-in-out;
 }
 /* content fadein */
-
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content .popup-modal {
+  opacity: 1;
+}
+/* content fadeout */
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
+  opacity: 0;
+}
 
 /*PIED DE PAGE*/
 
