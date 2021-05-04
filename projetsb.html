@@ -5,7 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio Benedicte Nicolats</title>
-        <link rel="stylesheet" href="./css/projets.css" />
+        <link rel="stylesheet" href="./css/projetsb.css" />
+
+        <script src="./js/popup.js"></script>
     </head>
     <body>
         <header>
@@ -33,7 +35,9 @@
       <div class="portfolio">
                   <!-- portfolio-wrapper -->
              <div class="wrapper-images">
-
+      <div class="open-btn">
+          <button class="open-button" onclick="openForm()">/strong</button>
+      
                     <div class=" portfolio-item">
                       <div class="item-wrap">
                     <a href="#modal-01" title=""></a> 
@@ -51,6 +55,7 @@
                               <div class="link-icon"><img src="./images/croix.png"   ></div>
                        </div>  <!-- fermeture item-wrap -->
                     </div><!-- fermeture portfolio-item -->
+
                      <!-- item end -->
       
                      <div class="portfolio-item">
@@ -138,9 +143,9 @@
                >         <!-- Modal Popup
               --------------------------------------------------------------- -->
 
-          <div id="modal-01" class="popup-modal mfp-hide">
+ <aside id="modal-01" class="popup-modal" aria-hidden="true">
+    <div class="modal-wrapper">
             <img class="scale-with-grid" src="./images/Sasbis.png" alt="" />
-
             <div class="description-box">
               <h4>Projet SAS</h4>
               <p>
@@ -160,10 +165,12 @@
                 class="popup-modal-rapport">Rapport</a>
               <a class="popup-modal-dismiss">Retour</a>
             </div><!-- fermeture link-box -->
-          </div>
+     </div><!-- fermeture modal-wrapper-->
+</aside><!-- fermeture popup-modal-->
+
           <!-- modal-01 End -->
 
-          <div id="modal-02" class="popup-modal mfp-hide">
+          <div id="modal-02" class="popup-modal">
             <img class="scale-with-grid" src="./images/Startbis.png" alt="" />
             <div class="description-box">
               <h4>Projet START</h4>
@@ -186,7 +193,7 @@
           </div>
           <!-- modal-02 End -->
 
-          <div id="modal-03" class="popup-modal mfp-hide">
+          <div id="modal-03" class="popup-modal">
             <img class="scale-with-grid" src="./images/Evolutionbis.png"alt="" />
 
             <div class="description-box">
@@ -214,7 +221,7 @@
           </div>
           <!-- modal-03 End -->
 
-          <div id="modal-04" class="popup-modal mfp-hide">
+          <div id="modal-04" class="popup-modal ">
             <img class="scale-with-grid" src="./images/Cas-H1bis.png" alt="" />
             <div class="description-box">
               <h4>Projet Cas H1</h4>
@@ -238,7 +245,7 @@
           </div>
           <!-- modal-04 End -->
 
-          <div id="modal-05" class="popup-modal mfp-hide">
+          <div id="modal-05" class="popup-modal ">
             <img class="scale-with-grid" src="./images/Cas-H2bis.png" alt="" />
             <div class="description-box">
               <h4>Projet Cas H2</h4>
@@ -261,7 +268,7 @@
           </div>
           <!-- modal-05 End -->
 
-          <div id="modal-06" class="popup-modal mfp-hide">
+          <div id="modal-06" class="popup-modal ">
             <img class="scale-with-grid" src="./images/Projetbis.png" alt="" />
             <div class="description-box">
               <h4>Projet de l'année</h4>
