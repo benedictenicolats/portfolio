@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.wrapper {
+  max-width: 1140px;
+  margin: auto;
+  min-height:100vh ;
+  position: relative;
+  background-color: #eff3f5;
+}
+
+/*BARRE DE NAVIGATION*/
+
+header {
+display: flex;
+align-items: center;
+height: 90px;
+background-color: #add4f3;
+background-image: linear-gradient(to bottom, #add4f3, #eff3f5);
+border-bottom: solid 5px #add4f3;
+}
+
+.nom{
+width: 25%;
+color:#284e7b ;
+font-size: 25px;
+margin: 20px;
+}
+
+nav {
+width: 75%;
+display: flex;
+justify-content: space-between;
+margin-right: 20px;
+font-size: 20px;
+}
+
+nav a{
+  color: #8f908d;
+  padding: 15px 25px;
+}
+
+ nav a:hover {
+  background-color: #add4f3;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+  opacity: 0.6;
+}
+
+ a:active {
+color: #284e7b;
+}
+
+/*CORPS*/
+
+.chaute{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 50vh;
+  background-image: url( ../images/bureau-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cgauche{
+  display: flex;
+  z-index: 3;
+}
+
+.cdroite{
+display: flex;
+flex-direction: column;
+width: 404px;
+height: 470px;
+  z-index: 3;
+  background-color: #eff3f5;
+  color: #284e7b;
+}
+
+span{
+  margin-top: 50px;
+  margin-left: 40px;
+}
+h1{
+  font-size: 26px;
+  text-align: center;
+}
+
+h2{
+font-size: 18px;
+text-align: center;
+}
+
+.cdroite p{
+font-size: 20px;
+}
+
+aside{
+  width: 100%;
+background-color: #eff3f5;
+}
+
+.cbhaut{
+  width: 809px;
+  height: 30px;
+  background-color: #add4f3;
+  background-image: linear-gradient(to bottom, #add4f3, #eff3f5);
+  margin-bottom: 10px;
+  border-bottom: solid 2px #add4f3;
+  display: flex;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.cbmilieu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  height: 16vh;
+}
+
+.cbmilieu p{
+  text-align: center;
+  color: #284e7b;
+}
+
+.cbbas{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 15vh;
+  font-size: 20px;
+}
+
+.cbbas p{
+  text-align: right;
+  margin-right: 200px;
+  color: #284e7b  ;
+}
+
+
+/*PIED DE PAGE*/
+
+footer {
+  width: 100%;
+  position: absolute;
+  height: 60px;
+  bottom: 0;
+  left: 0;
+  background-color: #add4f3;
+  background-image: linear-gradient(to bottom, #eff3f5, #add4f3);
+  border-top: solid 5px #add4f3;
+  color: #284e7b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+

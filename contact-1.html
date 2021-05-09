@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Benedicte Nicolats</title>
+    <link rel="stylesheet" href="./css/contact-1.css" />
+  </head>
+  
+  <body>
+    <div class="wrapper">
+
+      <!--  BARRE DE NAVIGATION  -->
+
+      <header>
+
+        <div  class="nom">
+          <p>Bénédicte Nicolats</p>
+        </div>
+        
+          <nav>
+          <a href="index-1.html">Accueil</a>
+          <a href="moi-1.html">Qui suis-je?</a>
+          <a href="compétences-1.html">Compétences</a>
+          <a href="projets-1.html">Projets CESI</a>
+          <a href="contact-1.html">Contact</a>
+          </nav>
+        
+        </header>
+        
+    <!--  CORPS  -->
+    <main>
+      <div class="legende">
+        <p><b>Pour me joindre :</b></p>
+      </div> <!--fermeture legende -->
+
+      <div class="corps">
+        <div class="gauche">
+          <div class="segment">
+            <h2>Informations de contact :</h2>
+          </div> <!--fermeture segment-->
+
+          <form method="post" action="contact-formulaire.php">
+            <div class="ligne1">
+              
+                <input class="mr-10"
+                  id="Nom"
+                  type="text"
+                  name="user_Nom"
+                  placeholder="Votre Nom"
+                  required
+                />
+             
+              
+                <input
+                  id="Prenom"
+                  type="text"
+                  name="user_Prenom"
+                  placeholder="Votre Prénom"
+                  required
+                />
+             
+            </div>       <!--fin ligne1-->
+
+            <div class="ligne2">
+             
+                <input class="mr-10"
+                  id="email"
+                  type="email"
+                  name="user_Email"
+                  placeholder="Votre Email"
+                  required
+                />
+              
+             
+                <input
+                  id="phone"
+                  type="text"
+                  name="user_Phone"
+                  placeholder="Votre Téléphone"
+                  required
+                />
+              
+            </div> <!-- fin de ligne 2 -->
+
+            <textarea
+              class="ligne3"
+              id="texte"
+              name="user_Texte"
+              placeholder="Votre message"
+              required
+            ></textarea> <!-- fin de ligne3 -->
+
+            <label class="ligne4">
+              <div class="button">
+                <button type="submit">Enregistrer</button>
+              </div> <!-- fin de ligne 4 -->
+            </label>
+          </form>
+        </div>  <!-- fin de gauche -->
+
+        <div class="droit">
+          <div class="métier mt-50">
+          <p><b>Bénédicte Nicolats</b></p><br />
+          <br />
+         <p>Gestionnaire en maintenance et support informatique<br/></p> 
+         <br>
+          <p-1> Future Responsable en Ingenierie Systèmes et Réseaux
+          </p-1>
+        </div><!-- fin de métier  -->
+        <br>
+        <br>
+        <br>
+          <div class="contact mt-50 ml-10">
+          <p>Téléphone :   <b>06 86 57 63 09</b></p>
+          <br>
+          <p>Email : <b>nicolatsbenedicte@gmail.com</b></p>
+       </div>   <!-- fin de contact  -->
+      </div>   <!-- fin de droit -->
+</div><!-- fin corps -->
+    </main>
+            <!--  PIED DE PAGE  -->
+            
+            <footer>
+              
+              <div class="renvoie1"><a href='.\documents\currivulum-vitae.pdf'>CV</a></div>
+              <div class="renvoie2"><a href='https://www.linkedin.com/in/b%C3%A9n%C3%A9dicte-nicolats-47bba376/'><img src="./images/linkedin.png" style="width: 24px;height: 24px;"> </a></div>
+              <div class="renvoie3">Copyright <a href="./contact-1.html">Benedicte Nicolats</a> &copy 2021</div>
+         
+      </footer>
+
+  </div><!--fin class.wrapper-->
+  </body>
+</html>

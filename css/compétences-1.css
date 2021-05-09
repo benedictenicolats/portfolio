@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.wrapper {
+  max-width: 1140px;
+  margin: auto;
+  min-height:100vh ;
+  position: relative;
+  background-color: #eff3f5;
+}
+
+
+/*BARRE DE NAVIGATION*/
+
+header {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  background-color: #add4f3;
+  background-image: linear-gradient(to bottom, #add4f3, #eff3f5);
+  border-bottom: solid 5px #add4f3;
+  }
+  
+  .nom{
+  width: 25%;
+  color:#284e7b ;
+  font-size: 25px;
+  margin: 20px;
+  }
+  
+  nav {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+  font-size: 20px;
+  }
+  
+  nav a{
+    color: #8f908d;
+    padding: 15px 25px;
+  }
+  
+   nav a:hover {
+    background-color: #add4f3;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    opacity: 0.6;
+  }
+
+   a:active {
+  color: #284e7b;
+  }
+  
+/*CORPS*/
+
+main{
+  width: 100%;
+  background-color: #eff3f5;
+}
+
+.corps {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+ul{
+  list-style: inside;
+}
+
+.qualités{
+  list-style: inside;
+  width: 98%;
+  border: #8f908d 5px solid;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  background-color: #add4f3;
+  color: #283e7c  ;
+  font-size: 20px;
+  text-align: left;
+  margin-top: 13px;
+  padding: 10px;
+}
+
+.référentiels{
+  width: 98%;
+  border:  #283e7c 5px solid;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #8f908d ;
+  color:#add4f3 ;
+  font-size: 20px;
+padding: 10px;
+margin-top: 13px;
+  text-align: left;
+}
+
+
+.acquis-stage{
+  list-style: inside;
+  width: 98%;
+  border: #8f908d 5px solid;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  background-color: #add4f3;
+  color: #283e7c  ;
+  font-size: 20px;
+  text-align: left;
+  margin-top: 13px;
+  padding: 10px;
+}
+/*PIED DE PAGE*/
+
+footer {
+  width: 100%;
+  position: absolute;
+  height: 60px;
+  bottom: 0;
+  left: 0;
+  background-color: #add4f3;
+  background-image: linear-gradient(to bottom, #eff3f5, #add4f3);
+  border-top: solid 2px #add4f3;
+  color: #284e7b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+

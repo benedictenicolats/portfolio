@@ -1,8 +1,9 @@
-script
-      function openForm() {
-        document.getElementById("modal-01").style.display="block";
-      }
-      
-      function closeForm() {
-        document.getElementById("modal-01").style.display="none";
-      }
+
+
+function openPopup(id){
+  document.getElementById(id).classList.remove("d-none")
+}
+
+function closePopup(id){
+  document.getElementById(id).classList.add("d-none")
+}
